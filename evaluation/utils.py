@@ -134,7 +134,7 @@ PROMPT_TEMPLATES = {
     "qwen-boxed": (
         "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n"
         "<|im_start|>user\n{input}\nPlease reason step by step, and put your final answer within \\boxed{{}}.<|im_end|>\n"
-        "<|im_start|>assistant\n",
+        "<|im_start|>assistant\n<think>",
         "{output}",
         "\n\n",
     ),
