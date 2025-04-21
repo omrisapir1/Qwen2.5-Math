@@ -8,7 +8,7 @@ SPLIT="test"
 NUM_TEST_SAMPLE=-1
 
 # English open datasets
-DATA_NAME="math"
+DATA_NAME="gsm8k"
 TOKENIZERS_PARALLELISM=false \
 python3 -u math_eval.py \
     --model_name_or_path ${MODEL_NAME_OR_PATH} \

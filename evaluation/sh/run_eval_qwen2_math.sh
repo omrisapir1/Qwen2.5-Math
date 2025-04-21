@@ -34,3 +34,5 @@ bash sh/eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH
 export CUDA_VISIBLE_DEVICES="0,1,2,3"
 MODEL_NAME_OR_PATH="Qwen/Qwen2-Math-72B-Instruct"
 bash sh/eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH
+
+
